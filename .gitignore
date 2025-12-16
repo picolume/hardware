@@ -1,0 +1,32 @@
+# KiCad backup files
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*~
+
+# KiCad lock files
+*.lck
+
+# KiCad generated files (optional - uncomment if you don't want to track these)
+# *-cache.lib
+# *.bak
+# _autosave-*
+
+# Gerber output folders (if you want to regenerate rather than track)
+# gerber/
+# Gerbers/
+
+# 3D model cache
+*.3dshapes/
+fp-info-cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
