@@ -8131,12 +8131,6 @@
 		(uuid "2309c255-2078-401b-91f3-7ba6e12f7094")
 	)
 	(junction
-		(at 49.53 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "247366e8-ed99-477d-9877-9b44d210cb57")
-	)
-	(junction
 		(at 88.9 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8233,12 +8227,6 @@
 		(uuid "508c1f05-5536-40fd-a885-0e946a406748")
 	)
 	(junction
-		(at 49.53 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b44c8ce-dca8-4722-8193-e7ff5aeaaa14")
-	)
-	(junction
 		(at 69.85 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8305,6 +8293,12 @@
 		(uuid "8c688980-4792-4482-98f5-dede87a5543e")
 	)
 	(junction
+		(at 48.26 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c82609-225d-456f-9116-faa98cfd2676")
+	)
+	(junction
 		(at 73.66 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8339,12 +8333,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1b56553-a19c-4819-be4c-aab6979769fc")
-	)
-	(junction
-		(at 48.26 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4b27551-84a1-4801-9432-e807053b655f")
 	)
 	(junction
 		(at 74.93 39.37)
@@ -9054,16 +9042,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 177.8) (xy 49.53 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e592eab-96ad-4d72-b578-d8cb0dfded55")
-	)
-	(wire
-		(pts
 			(xy 201.93 109.22) (xy 201.93 114.3)
 		)
 		(stroke
@@ -9364,6 +9342,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 111.76) (xy 39.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46666107-264f-425c-9bb4-abfc3773e3f1")
+	)
+	(wire
+		(pts
 			(xy 213.36 109.22) (xy 247.65 109.22)
 		)
 		(stroke
@@ -9544,7 +9532,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 167.64) (xy 73.66 167.64)
+			(xy 53.34 167.64) (xy 73.66 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9954,7 +9942,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 177.8) (xy 74.93 177.8)
+			(xy 53.34 177.8) (xy 74.93 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10001,6 +9989,16 @@
 			(type default)
 		)
 		(uuid "6d6ca644-372a-4665-b903-6785305efb6e")
+	)
+	(wire
+		(pts
+			(xy 46.99 111.76) (xy 48.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6f5954-5923-4aff-acb2-5afa5c6fbb59")
 	)
 	(wire
 		(pts
@@ -10411,16 +10409,6 @@
 			(type default)
 		)
 		(uuid "88e41434-7036-4648-ac38-2fab93dbdebc")
-	)
-	(wire
-		(pts
-			(xy 49.53 167.64) (xy 49.53 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a3e268-48e6-42d3-ac30-d5d09e8c8895")
 	)
 	(wire
 		(pts
@@ -11204,16 +11192,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 167.64) (xy 49.53 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee932bd-29f0-4341-9ba9-3c0064eb4661")
-	)
-	(wire
-		(pts
 			(xy 279.4 105.41) (xy 290.83 105.41)
 		)
 		(stroke
@@ -11551,6 +11529,16 @@
 			(type default)
 		)
 		(uuid "d95bee43-e767-4833-ace0-673b8d9d108a")
+	)
+	(wire
+		(pts
+			(xy 35.56 109.22) (xy 35.56 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9c4117-ce69-47af-9510-2f56ea8d3360")
 	)
 	(wire
 		(pts
@@ -11924,16 +11912,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 48.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5f1bd7d-dd16-46a9-90dc-c7faf1050999")
-	)
-	(wire
-		(pts
 			(xy 379.73 33.02) (xy 379.73 34.29)
 		)
 		(stroke
@@ -11944,7 +11922,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 170.18) (xy 44.45 167.64)
+			(xy 53.34 170.18) (xy 53.34 167.64)
 		)
 		(stroke
 			(width 0)
@@ -17160,7 +17138,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 48.26 109.22 0)
+		(at 35.56 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17168,7 +17146,7 @@
 		(dnp no)
 		(uuid "2fdab42a-5c22-40ce-8860-7759fc7c8242")
 		(property "Reference" "#PWR047"
-			(at 48.26 113.03 0)
+			(at 35.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17176,8 +17154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "FUSED"
-			(at 48.641 104.8258 0)
+		(property "Value" "VBAT"
+			(at 35.941 104.8258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17185,7 +17163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 109.22 0)
+			(at 35.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17194,7 +17172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 109.22 0)
+			(at 35.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17203,7 +17181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 109.22 0)
+			(at 35.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18271,84 +18249,6 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 49.53 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54a76b13-a5d2-4e6b-beb9-771358ba00e7")
-		(property "Reference" "C4"
-			(at 52.451 172.8216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 52.451 175.133 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 50.4952 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 49.53 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2164649"
-			(at 49.53 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d211f9da-7ac8-470a-999b-6975e1e4c811")
-		)
-		(pin "2"
-			(uuid "12283c43-395a-40c4-b735-147eff639bc2")
-		)
-		(instances
-			(project "PicoLume_Receiver"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -19885,7 +19785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
 			(at 77.47 38.1 0)
 			(effects
 				(font
@@ -19913,7 +19813,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C207036"
+		(property "LCSC" "C20617440"
 			(at 82.55 36.83 90)
 			(effects
 				(font
@@ -20073,6 +19973,84 @@
 			(project "Pico_RF_V1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 43.18 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9038ba32-d7dc-4499-b970-f5afa59613a0")
+		(property "Reference" "F2"
+			(at 43.18 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 43.18 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
+			(at 38.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20617440"
+			(at 43.18 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0e78c25-fe6e-4cdc-9bee-011937faa5f7")
+		)
+		(pin "2"
+			(uuid "7be75f85-1f88-4c3f-aa63-f66a237a5f80")
+		)
+		(instances
+			(project "PicoLume_Receiver"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -20496,7 +20474,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 173.99 0)
+		(at 53.34 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20504,7 +20482,7 @@
 		(dnp no)
 		(uuid "ac80d1eb-9492-43da-af9f-bdef507212e2")
 		(property "Reference" "C5"
-			(at 37.338 173.228 0)
+			(at 46.228 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20513,7 +20491,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 35.306 175.26 0)
+			(at 44.196 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20522,7 +20500,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.4152 177.8 0)
+			(at 54.3052 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20531,7 +20509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 173.99 0)
+			(at 53.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20540,7 +20518,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 173.99 0)
+			(at 53.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20549,7 +20527,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 44.45 173.99 0)
+			(at 53.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
