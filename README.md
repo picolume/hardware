@@ -26,14 +26,6 @@ An RP2040-based control board featuring:
 
 The PicoLume Board is the core control component. A complete receiver or transmitter setup requires additional hardware (enclosures, power supplies, antennas, etc.) which are currently being designed.
 
-### series-mini (In Development)
-
-A compact, battery-powered design intended for wearable applications. Planned features:
-
-- Lithium battery operation
-- Drives small 5V RGB LED strips
-- Suitable for individuals or equipment-mounted lighting
-
 ### series-legacy (Prototypes)
 
 Early prototype designs from the development phase. These boards were used for proof-of-concept testing and firmware development.
