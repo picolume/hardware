@@ -30,3 +30,8 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# LLM/AI assistant files
+.claude/
+AGENTS.md
+CLAUDE.md
