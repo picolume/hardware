@@ -3646,261 +3646,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B-2020"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B-2020"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B-2020_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LM66200DRLR:LM66200DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7956,6 +7701,17 @@
 		)
 		(uuid "20500675-d561-4f0c-9cea-5bac237ef30d")
 	)
+	(text "Use the internal pullup resistors"
+		(exclude_from_sim no)
+		(at 183.388 275.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3246f5fa-69a2-49d4-bf8a-348f26d0f9ea")
+	)
 	(text "Make sure C8 is close to pin 45 of RP2040"
 		(exclude_from_sim no)
 		(at 144.78 115.57 0)
@@ -8089,12 +7845,6 @@
 		(uuid "04ea0d2c-d31e-4863-9702-0c02ad6a96b9")
 	)
 	(junction
-		(at 73.66 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1635d8d4-52de-41b7-9762-3cd4a1ab14f5")
-	)
-	(junction
 		(at 201.93 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8171,12 +7921,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "416f1aa3-4906-418d-9a68-a4b9b68d3248")
-	)
-	(junction
-		(at 80.01 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42e947ed-3715-4005-b820-05fbfc7992b0")
 	)
 	(junction
 		(at 181.61 104.14)
@@ -8377,12 +8121,6 @@
 		(uuid "d017f2d0-3860-433e-ad33-75b840a4c12b")
 	)
 	(junction
-		(at 74.93 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d51470a3-20de-4bd4-98e8-c776cf69ce0c")
-	)
-	(junction
 		(at 377.19 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8425,12 +8163,6 @@
 		(uuid "f2055d5b-e899-4876-bfcc-0115184448aa")
 	)
 	(junction
-		(at 81.28 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f25713fe-a06e-4a29-950b-abe99eacaf49")
-	)
-	(junction
 		(at 170.18 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8471,10 +8203,6 @@
 	(no_connect
 		(at 72.39 69.85)
 		(uuid "8103c3e1-0972-4681-8624-459db71a68b3")
-	)
-	(no_connect
-		(at 78.74 233.68)
-		(uuid "c8da1112-955a-4f10-b13f-ce2cf1364dc9")
 	)
 	(no_connect
 		(at 382.27 120.65)
@@ -8679,6 +8407,16 @@
 			(type default)
 		)
 		(uuid "0c04b0a8-410c-4260-a40f-80eff28b9e85")
+	)
+	(wire
+		(pts
+			(xy 213.36 270.51) (xy 209.55 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8e7fda-3f2f-4387-b639-ebc2a85b8fc0")
 	)
 	(wire
 		(pts
@@ -9062,23 +8800,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 172.72) (xy 74.93 177.8)
+			(xy 74.93 172.72) (xy 74.93 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2fc460ef-22e9-4c99-b134-77d529d4f1c7")
-	)
-	(wire
-		(pts
-			(xy 74.93 177.8) (xy 74.93 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306493b5-e7d5-4625-addf-7c7c8400ddd7")
 	)
 	(wire
 		(pts
@@ -9289,16 +9017,6 @@
 			(type default)
 		)
 		(uuid "3d9a75a5-f7da-4b79-9ee6-55be99da468d")
-	)
-	(wire
-		(pts
-			(xy 88.9 238.76) (xy 88.9 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f5e0eb2-443a-45db-8b8c-b6c928a3955f")
 	)
 	(wire
 		(pts
@@ -9532,16 +9250,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 167.64) (xy 73.66 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ad0bc2-fc51-45eb-88b3-5d2d026bd0d6")
-	)
-	(wire
-		(pts
 			(xy 113.03 49.53) (xy 113.03 53.34)
 		)
 		(stroke
@@ -9612,17 +9320,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 243.84) (xy 81.28 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5644229d-2f67-4869-bc25-2bc66c0fb499")
-	)
-	(wire
-		(pts
-			(xy 73.66 162.56) (xy 73.66 167.64)
+			(xy 73.66 162.56) (xy 73.66 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9912,16 +9610,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 241.3) (xy 71.12 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ee6b09-5b0e-4819-ab49-d761f5c91d10")
-	)
-	(wire
-		(pts
 			(xy 86.36 44.45) (xy 90.17 44.45)
 		)
 		(stroke
@@ -9939,16 +9627,6 @@
 			(type default)
 		)
 		(uuid "6a45be7a-0bec-4e99-be7f-318a4958de38")
-	)
-	(wire
-		(pts
-			(xy 53.34 177.8) (xy 74.93 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b51e87b-a0cf-4b38-9ee5-fd59b347218d")
 	)
 	(wire
 		(pts
@@ -10069,16 +9747,6 @@
 			(type default)
 		)
 		(uuid "71cee0f9-8a52-493f-81e3-247464fa0669")
-	)
-	(wire
-		(pts
-			(xy 80.01 223.52) (xy 71.12 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724ba701-06f9-47ea-8519-e2e17adb25d0")
 	)
 	(wire
 		(pts
@@ -10442,16 +10110,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 220.98) (xy 80.01 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc7239c-db3e-471a-a982-dc41d2e6b68f")
-	)
-	(wire
-		(pts
 			(xy 81.28 175.26) (xy 81.28 172.72)
 		)
 		(stroke
@@ -10572,16 +10230,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 223.52) (xy 71.12 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a049e7-4006-493d-a3a5-6f1f5b756e9c")
-	)
-	(wire
-		(pts
 			(xy 228.6 127) (xy 228.6 114.3)
 		)
 		(stroke
@@ -10672,16 +10320,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 233.68) (xy 63.5 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cefbab7-2f49-43b4-8390-174976860a56")
-	)
-	(wire
-		(pts
 			(xy 279.4 95.25) (xy 279.4 93.98)
 		)
 		(stroke
@@ -10719,16 +10357,6 @@
 			(type default)
 		)
 		(uuid "9dea8701-f71e-44f5-970b-f13a09138d1e")
-	)
-	(wire
-		(pts
-			(xy 88.9 223.52) (xy 80.01 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e2d1a14-4f4f-477c-b1f4-00af4bb7136a")
 	)
 	(wire
 		(pts
@@ -11242,16 +10870,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 243.84) (xy 81.28 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d8b236-bc20-4009-a25c-79b2b5915b1d")
-	)
-	(wire
-		(pts
 			(xy 254 167.64) (xy 269.24 167.64)
 		)
 		(stroke
@@ -11432,6 +11050,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 270.51) (xy 199.39 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefc0ce6-aea6-47dc-ac42-46771edf66a6")
+	)
+	(wire
+		(pts
 			(xy 336.55 67.31) (xy 346.71 67.31)
 		)
 		(stroke
@@ -11522,16 +11150,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 231.14) (xy 88.9 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95bee43-e767-4833-ace0-673b8d9d108a")
-	)
-	(wire
-		(pts
 			(xy 35.56 109.22) (xy 35.56 111.76)
 		)
 		(stroke
@@ -11619,16 +11237,6 @@
 			(type default)
 		)
 		(uuid "e26c5aba-edee-432d-87ea-d1552b2e388a")
-	)
-	(wire
-		(pts
-			(xy 73.66 167.64) (xy 73.66 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a4911b-fdcc-4d89-a0ae-349c145aec6f")
 	)
 	(wire
 		(pts
@@ -11922,16 +11530,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 170.18) (xy 53.34 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a6bca4-9e7f-47b5-8ff5-f0e89a79c9af")
-	)
-	(wire
-		(pts
 			(xy 213.36 127) (xy 213.36 114.3)
 		)
 		(stroke
@@ -11979,16 +11577,6 @@
 			(type default)
 		)
 		(uuid "fbb43639-5148-47b3-86ae-a0667d91ac27")
-	)
-	(wire
-		(pts
-			(xy 81.28 243.84) (xy 71.12 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc99a85a-4ed5-4b72-b242-c2552827313b")
 	)
 	(wire
 		(pts
@@ -12089,6 +11677,16 @@
 			(justify right bottom)
 		)
 		(uuid "05c39a08-a098-4e9b-9af8-487e389486be")
+	)
+	(label "GPIO15"
+		(at 185.42 270.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05f49b6e-3b70-4e80-ab35-3d90732bb2e0")
 	)
 	(label "GPIO29_ADC3"
 		(at 387.35 36.83 180)
@@ -12889,16 +12487,6 @@
 			(justify right bottom)
 		)
 		(uuid "d7a8e1cc-5813-4f73-a59e-262242553ad9")
-	)
-	(label "GPIO15"
-		(at 55.88 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df45f2f5-91ab-4eb5-8ced-7a59d70ecaae")
 	)
 	(label "GPIO20"
 		(at 384.81 59.69 180)
@@ -16122,71 +15710,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0abd6472-722b-4728-b83e-e9d319d97c8b")
-		(property "Reference" "#PWR033"
-			(at 81.28 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.407 250.7742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "272eb4d8-cefd-4cac-9cd0-a57567846426")
-		)
-		(instances
-			(project "PicoLume_Receiver"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 349.25 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19350,6 +18873,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 213.36 270.51 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "762d6987-453e-45c6-90ee-9e1de9277c7f")
+		(property "Reference" "#PWR033"
+			(at 219.71 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.7542 270.637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83432bdb-8e04-4c8e-a105-1d23285e4dc0")
+		)
+		(instances
+			(project "PicoLume_Receiver"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 377.19 111.76 0)
 		(mirror y)
 		(unit 1)
@@ -19409,90 +18998,6 @@
 			(project "Pico_RF_V1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 71.12 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78d0349c-324d-4494-a8d9-4bca06bcf30b")
-		(property "Reference" "D2"
-			(at 57.15 225.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 57.15 227.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 72.39 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 73.66 243.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 71.12 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965555"
-			(at 71.12 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d2cf3cac-f1a0-4cef-abe9-aed986746628")
-		)
-		(pin "2"
-			(uuid "1c45ed69-17f1-4781-8898-e913095e45d5")
-		)
-		(pin "4"
-			(uuid "df471e5b-3617-49cf-ac50-a25160c760b1")
-		)
-		(pin "1"
-			(uuid "a58e87e6-e5a7-4bfa-89f5-ff75cb9c508a")
-		)
-		(instances
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19623,72 +19128,6 @@
 			(project "PicoLume_Receiver"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 80.01 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e0542f5-385f-4111-8101-4f51bbe64a8e")
-		(property "Reference" "#PWR034"
-			(at 80.01 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 80.01 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 80.01 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5abf92ba-a703-4f5c-99c9-36459b92c71d")
-		)
-		(instances
-			(project "PicoLume_Receiver"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20467,84 +19906,6 @@
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac80d1eb-9492-43da-af9f-bdef507212e2")
-		(property "Reference" "C5"
-			(at 46.228 173.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 44.196 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 53.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3ffeb9d-e1a5-43d8-ab13-ca6b6de76c4f")
-		)
-		(pin "2"
-			(uuid "4f462fbc-7ed1-4d8d-8dd3-968e2f3c281d")
-		)
-		(instances
-			(project "PicoLume_Receiver"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21599,6 +20960,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 204.47 270.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e69537-992c-4a0e-af5b-3e22995b85df")
+		(property "Reference" "SW4"
+			(at 204.47 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 204.47 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C609852"
+			(at 204.47 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad2b7954-a73f-4594-a9c5-b23174933348")
+		)
+		(pin "1"
+			(uuid "eb6a32f6-39a5-4307-a84f-7aaecda6fa5a")
+		)
+		(instances
+			(project "PicoLume_Receiver"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 339.725 171.45 270)
 		(unit 1)
@@ -22453,84 +21892,6 @@
 			(project "KiCAD-RFM69"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8141e31-f94d-4454-adcd-8cf3ecf5b83d")
-		(property "Reference" "C21"
-			(at 81.788 234.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 79.756 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 89.8652 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 88.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0e0c707-177e-4891-848b-0b9ec9b8a8d1")
-		)
-		(pin "2"
-			(uuid "1d0f8d52-3ba7-4478-af2d-3a3e24fa002d")
-		)
-		(instances
-			(project "PicoLume_Receiver"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "C21")
 					(unit 1)
 				)
 			)
