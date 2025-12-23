@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PicoLume")(type "KiCad")(uri "${KIPRJMOD}/PicoLume.kicad_sym")(options "")(descr ""))
+)
